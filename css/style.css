@@ -302,7 +302,188 @@
 /* -------------------- */
 
 
+/* -------------------- */
+/* product start*/
+/* -------------------- */
+.product-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
 
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.product-card-btn {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+.card button:hover {
+    opacity: 0.7;
+}
+
+.product-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(46, 45, 45);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin: 30px;
+}
+
+
+.pro{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow-x: auto; 
+    scroll-behavior: smooth;
+}
+
+.scroll-container {
+    display: flex;
+    flex-wrap: nowrap; 
+    width: fit-content; 
+}
+
+.product-card{
+    flex: 0 0 auto; 
+    width: 200px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    margin-right: 10px; 
+}
+
+
+.pro-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(21, 21, 21);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin: 10px;
+    text-align: center;
+}
+/* -------------------- */
+/* product end */
+/* -------------------- */
+
+
+/* -------------------- */
+/* partner start */
+/* -------------------- */
+
+.partners-card{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow-x: auto; 
+    scroll-behavior: smooth;
+}
+.partner-img{
+    margin: 0px 20px 0px 20px;
+    width: 150px;
+    opacity: 0.5;
+}
+
+.partner-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(21, 21, 21);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin: 10px;
+    text-align: center;
+}
+
+/* -------------------- */
+/* partner end */
+/* -------------------- */
+
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+  
+  .footer-column {
+    flex-basis: 45%;
+  }
+  
+  .footer-heading {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .social-media-icons {
+    display: flex;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #aaa;
+  }
+  
+  .footer-line {
+    border-top: 1px solid #aaa;
+    margin: 20px 0;
+  }
+  
+  .footer-credits {
+    font-size: 14px;
+    text-align: center;
+  }
 
   @media only screen and (max-width: 600px) {
     .header {
